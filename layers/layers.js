@@ -69,10 +69,10 @@ var lyr_Jaringan_Perpipaan_4 = new ol.layer.Vector({
                 interactive: true,
     title: 'Jaringan_Perpipaan<br />\
     <img src="styles/legend/Jaringan_Perpipaan_4_0.png" /> Dia. 1000mm<br />\
-    <img src="styles/legend/Jaringan_Perpipaan_4_1.png" /> Dia. 400mm<br />\
-    <img src="styles/legend/Jaringan_Perpipaan_4_2.png" /> Dia. 450mm<br />\
-    <img src="styles/legend/Jaringan_Perpipaan_4_3.png" /> Dia. 600mm<br />\
-    <img src="styles/legend/Jaringan_Perpipaan_4_4.png" /> Dia. 800mm<br />\
+    <img src="styles/legend/Jaringan_Perpipaan_4_1.png" /> Dia. 800mm<br />\
+    <img src="styles/legend/Jaringan_Perpipaan_4_2.png" /> Dia. 600mm<br />\
+    <img src="styles/legend/Jaringan_Perpipaan_4_3.png" /> Dia. 450mm<br />\
+    <img src="styles/legend/Jaringan_Perpipaan_4_4.png" /> Dia. 400mm<br />\
     <img src="styles/legend/Jaringan_Perpipaan_4_5.png" /> Pipa PK3<br />' });
 var format_TITIK_JSDP_5 = new ol.format.GeoJSON();
 var features_TITIK_JSDP_5 = format_TITIK_JSDP_5.readFeatures(json_TITIK_JSDP_5, 
