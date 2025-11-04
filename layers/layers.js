@@ -74,6 +74,7 @@ var lyr_TITIK_JSDP_4 = new ol.layer.Vector({
                 source:jsonSource_TITIK_JSDP_4, 
                 style: style_TITIK_JSDP_4,
                 popuplayertitle: 'TITIK_JSDP',
+                interactive: true,
                 title: '<img src="styles/legend/TITIK_JSDP_4.png" /> TITIK_JSDP'
             });
 
