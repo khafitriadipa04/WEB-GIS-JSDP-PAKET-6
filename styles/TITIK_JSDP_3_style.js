@@ -39,7 +39,7 @@ var style_TITIK_JSDP_3 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("SURVEY JSDP PAKET 6 PROGRES PEKERJAAN");
+    var value = feature.get("Data Eksisting Paket 6 PROGRES PEKERJAAN");
     var labelFont = "9.1px \'MS Shell Dlg 2\', sans-serif";
     var labelFill = "#000000";
     var bufferColor = "#ffffff";
