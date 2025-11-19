@@ -25,7 +25,7 @@ case 'DALAM PROSES':
 case 'SELESAI - CATATAN (COVER MANHOLE)':
                     return [ new ol.style.Style({
         image: new ol.style.Circle({radius: 6.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(61,128,53,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(255,241,0,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(61,128,53,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(255,248,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -39,7 +39,7 @@ var style_TITIK_JSDP_3 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("Data eksisting paket 6 PROGRES PEKERJAAN");
+    var value = feature.get("Data Eksisting Paket 6 PROGRES PEKERJAAN");
     var labelFont = "9.1px \'MS Shell Dlg 2\', sans-serif";
     var labelFill = "#000000";
     var bufferColor = "#ffffff";
