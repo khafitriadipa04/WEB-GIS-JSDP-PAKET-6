@@ -11,8 +11,8 @@ var style_DCPaket5_7 = function(feature, resolution){
     var value = feature.get("");
     var labelFont = "13.0px \'MS Shell Dlg 2\', sans-serif";
     var labelFill = "#ffcd00";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var bufferColor = "#000000";
+    var bufferWidth = 3.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
@@ -21,7 +21,7 @@ var style_DCPaket5_7 = function(feature, resolution){
         labelText = String(feature.get("ID Pekerjaan"));
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 8.8 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 10.0 + size, points: 4,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(61,128,53,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(84,176,74,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
