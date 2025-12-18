@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_BatasWilayahJakartaBarat_3 = function(feature, resolution){
+var style_DCPaket5_7 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -9,19 +9,20 @@ var style_BatasWilayahJakartaBarat_3 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
+    var labelFont = "13.0px \'MS Shell Dlg 2\', sans-serif";
+    var labelFill = "#ffcd00";
     var bufferColor = "";
     var bufferWidth = 0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("ID Pekerjaan") !== null) {
+        labelText = String(feature.get("ID Pekerjaan"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(51,160,44,1.0)', lineDash: [15.2,3.04], lineCap: 'butt', lineJoin: 'miter', width: 3.04}),fill: new ol.style.Fill({color: 'rgba(114,155,111,0.0)'}),
+        image: new ol.style.Circle({radius: 4.0 + size,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(125,139,143,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

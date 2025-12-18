@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_BatasWilayahJakartaBarat_3 = function(feature, resolution){
+var style_BatasWilayahJakartaPusat_4 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_BatasWilayahJakartaBarat_3 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(51,160,44,1.0)', lineDash: [15.2,3.04], lineCap: 'butt', lineJoin: 'miter', width: 3.04}),fill: new ol.style.Fill({color: 'rgba(114,155,111,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(227,26,28,1.0)', lineDash: [15.2,3.04], lineCap: 'butt', lineJoin: 'miter', width: 3.04}),fill: new ol.style.Fill({color: 'rgba(190,207,80,0.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
